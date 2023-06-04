@@ -8,36 +8,6 @@ body {
     margin-bottom: 30px;
 }
 
-.middle {
-    text-align: center;
-    padding: 0 100px;
-}
-
-.quote {
-    display: flex;
-    justify-content: center;
-    padding: 100px 200px;
-    background-color: #E5E7EB;
-}
-
-.action {
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.header, ul, .hero, .container-text, button, .text1, footer {
-    color: #F9FAF8;
-}
-
-.top, footer {
-    background-color: #1F2937;
-}
-
-button, .section {
-    background-color: #3882F6;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -47,14 +17,6 @@ button, .section {
 
 .logo, .attributed {
     font-size: 24px;
-}
-
-.logo, .hero, button, .info-text, .attributed {
-    font-weight: bolder;
-}
-
-img, .photo {
-    max-width: 100%;
 }
 
 ul {
@@ -74,12 +36,9 @@ li {
     flex-wrap: wrap;
 }
 
-.intro-photo {
-    height: 300px;
-}
-
-img {
-    border-radius: 10px;
+.hero {
+    font-size: 48px;
+    max-width: 400px;
 }
 
 .container-text {
@@ -89,16 +48,24 @@ img {
     margin-top: -20px;
 }
 
-.hero {
-    font-size: 48px;
-    max-width: 400px;
-}
-
 button {
     border-radius: 5px;
     width: 100px;
     height: 30px;
     border: none;
+}
+
+button, .section {
+    background-color: #3882F6;
+}
+
+.intro-photo {
+    height: 300px;
+}
+
+.middle {
+    text-align: center;
+    padding: 0 100px;
 }
 
 .info-text {
@@ -126,8 +93,19 @@ button {
     font-size: 18px;
 }
 
+img {
+    border-radius: 10px;
+}
+
 .photo, .photo-text {
     max-width: 250px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 100px 200px;
+    background-color: #E5E7EB;
 }
 
 .quote-text {
@@ -142,6 +120,28 @@ button {
 .attributed {
     padding: 0 100px;
     align-self: flex-end;
+}
+
+.action {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header, ul, .hero, .container-text, button, .text1, footer {
+    color: #F9FAF8;
+}
+
+.top, footer {
+    background-color: #1F2937;
+}
+
+.logo, .hero, button, .info-text, .attributed {
+    font-weight: bolder;
+}
+
+img, .photo {
+    max-width: 100%;
 }
 
 .section {
